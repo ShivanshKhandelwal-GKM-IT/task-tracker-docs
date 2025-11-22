@@ -6,7 +6,9 @@ This Documentation is organized into the following sections:
 2. **[Scope](scope.md)** - Scope of the project.
 2. **[Requirements](functional.md)** - Requirements of the project.
 3. **[Use Cases](usecase.md)** - Use cases of the project.
-
+4. **[Data Modelling](DataModelling.md)** - ER diagram and Data Flow diagram.
+5. **[Authentication & Authorisation](security.md)** - Authentication and Authorisation flow.
+6. **[Tech Stack](TechStack.md)** - Tech Stack of the project.
 
 ---
 

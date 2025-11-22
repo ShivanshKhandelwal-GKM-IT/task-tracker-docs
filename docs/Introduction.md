@@ -36,28 +36,12 @@ This application is designed for:
 | ID | Goal | Description |
 |----|------|--------------|
 | **G1** | **Task Organization** | Enable users to manage and track daily tasks efficiently. |
-| **G2** | **Accessibility** | Provide seamless web & mobile access with real-time synchronization. |
+| **G2** | **Accessibility** | Provide seamless web & mobile access with synchronization. |
 | **G3** | **Simplicity** | Deliver a clean, intuitive, and responsive user interface. |
 | **G4** | **Security** | Protect user data with robust authentication and access control. |
 
 ---
 
-## 2. Product Objectives
-
-### 2.1 Simplify Task Management
-Simplify task creation, organization, and tracking for users.  
-
-### 2.2 Intuitive Navigation
-Offer intuitive navigation and responsive design across platforms.  
-
-### 2.3 High Performance & Reliability
-Ensure high performance and reliability under varying conditions.  
-
-### 2.4 Data Security
-Provide data security through authentication and user authorization.  
-
-
----
 
 
 **Next:** [Scope →](scope.md)

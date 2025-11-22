@@ -13,13 +13,6 @@
 - Sync tasks with Google Calendar or Outlook.
 ---
 
-###  Mobile Application Layer
 
-The mobile application layer will:
-
-- Offer full task management functionality with responsive design.  
-- Maintain consistent user experience across all devices.  
-
----
 
 **Next:** [Requirements →](functional.md)

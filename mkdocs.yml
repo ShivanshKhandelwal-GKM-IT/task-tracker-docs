@@ -6,7 +6,10 @@ nav:
   - Requirements: functional.md
   - Use Cases: usecase.md
   - Data Modelling: DataModelling.md
-
+  - Authentication & Authorisation: security.md
+  - TechStack: TechStack.md
+  - Test Plan: Test.md
+  - Test Cases: testcase.md
 theme:
   name: material
 
@@ -26,4 +29,6 @@ plugins:
   - search
   - diagrams
   - render_swagger
+extra_css:
+    - css/extra.css
 

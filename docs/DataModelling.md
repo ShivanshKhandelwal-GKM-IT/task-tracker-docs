@@ -1,4 +1,6 @@
-# ER Diagram
+# Diagrams
+
+## ER Diagram
 
 ```mermaid
 erDiagram
@@ -9,7 +11,7 @@ erDiagram
         int id PK
         varchar email UK
         varchar password
-        varchar fullname
+        varchar name
         timestamp created_at
         timestamp updated_at
         timestamp deleted_at
@@ -30,63 +32,15 @@ erDiagram
     STATUS {
         int id PK
         varchar status_name  
-        timestamp created_at
-        timestamp updated_at
     }
 ```
 
-# Authentication 
-
-```mermaid
-flowchart TD
-    Start([Start]) --> A[Task Tracker System]
-    A --> B{Have an Account?}
-    
-    B -->|Yes| C[Enter Username & Password]
-    B -->|No| D[Register New Account]
-    
-    D --> E[Submit Registration Info]
-    E --> F{Valid Info?}
-    F -->|Yes| G[Create Account & Redirect to Login]
-    F -->|No| H[Show Registration Error]
-    H --> D
-    
-    G --> C
-    
-    C --> I{Credentials Correct?}
-    I -->|Yes| J[Generate Session / JWT Token]
-    I -->|No| K[Show Login Error]
-    K --> C
-    
-    J --> L[Access Dashboard]
-    L --> End([End])
-```
-
-# Authorisation
-
-```mermaid
-flowchart TD
-    Start([Start]) --> A[User Logged In & Authenticated]
-    A --> B[Request Action on Task]
-    B --> C{"Action Allowed? Check Ownership"}
-    
-    C -->|Yes| D[Perform Action]
-    C -->|No| E[Show Authorization Error 403 Forbidden]
-    
-    D --> F[Create / Update / Delete / View Task]
-    F --> G[Return Success Response to User]
-    E --> H[Return Error Response to User]
-    
-    G --> End([End])
-    H --> End([End])
-```
-
-# Data Flow Diagram
+## Data Flow Diagram
 
 ```mermaid
 flowchart TD
 
-    Title[Task Management System - Data Flow Diagram]:::title
+    Title[Task Tracker System - Data Flow Diagram]:::title
 
     User([User]):::entity
 
@@ -111,3 +65,4 @@ flowchart TD
     classDef process fill:#c6f6d5,stroke:#2f855a,stroke-width:2px,color:#22543d;
     classDef datastore fill:#fefcbf,stroke:#b7791f,stroke-width:2px,color:#7f6d1c;
 ```
+**Next:** [Tech Stack →](TechStack.md)
