@@ -15,6 +15,6 @@
 | Backend Technology          | 24.11.1      | Node.js   |
 | Web Framework       | 5.1.0       | Express.js         |
 | Database Driver     | 8.16.3      | pg (node-postgres) |
-| Jest                |   30.1.3          | Testing            |
+| Jest                |   29.7.0          | Testing            |
 
 **Next:** [Test Plan →](Test.md)

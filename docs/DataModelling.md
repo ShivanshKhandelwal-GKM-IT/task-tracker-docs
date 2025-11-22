@@ -13,14 +13,13 @@ erDiagram
         varchar password
         varchar name
         timestamp created_at
-        timestamp updated_at
-        timestamp deleted_at
     }
 
     TASKS {
         int id PK
         varchar title
         varchar description
+        Date deadline
         int status_id FK
         int user_id FK
         timestamp completed_at

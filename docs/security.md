@@ -17,7 +17,7 @@ flowchart TD
     G --> C
     
     C --> I{Credentials Correct?}
-    I -->|Yes| J[Generate Session]
+    I -->|Yes| J[Generate Token]
     I -->|No| K[Show Login Error]
     K --> C
     
