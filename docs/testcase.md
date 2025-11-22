@@ -6,6 +6,5 @@
 | **TC-04**    | Login with empty email field                               | Error: "Email is required" or "Fill this field". |
 | **TC-05**    | Login with empty password field                            | Error: "Password is required" or "Fill this field". |
 | **TC-06**    | Login with both fields empty                               | Error: "Email and password required". |
-
-| **TC-07**    | Login with password less than minimum length               | Error: "Password must be at least 6 characters". *(Password policy: min 6 characters)* |
-| **TC-08**    | Login with leading/trailing spaces in email                | Email is trimmed automatically; login succeeds if credentials are valid. |
+| **TC-07**    | Login with password less than minimum length               | Error: "Password must be at least 6 characters". |
+| **TC-08**    | Login with leading/trailing spaces in email                | Email is trimmed automatically; login succeeds if credentials valid.|

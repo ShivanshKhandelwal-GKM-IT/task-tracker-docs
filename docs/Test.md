@@ -14,12 +14,7 @@ title: Task Tracker System – Test Plan (Table Format)
 | | **Test Execution** | - Run unit tests using **Jest**<br>- Validate APIs using **Postman**<br>- Perform manual testing of all frontend workflows including login, creating tasks, editing tasks, deleting tasks, and status updates <br>- Re-test after fixes and validate resolutions |
 | **5. Entry & Exit Criteria** | **Entry Criteria** | - Backend and frontend deployed in test environment<br>- Test data prepared in PostgreSQL<br>- All critical APIs functioning and accessible |
 | | **Exit Criteria** | - All planned test cases executed<br>- Critical and major defects resolved |
-| **6. Risks & Mitigation** | **Risk 1** | Incorrect task status transitions or logic errors |
-| | **Mitigation 1** | Validate rules in unit tests and through manual workflow testing |
-| | **Risk 2** | Authentication/security vulnerabilities |
-| | **Mitigation 2** | Test login, JWT handling, role-based access, and input sanitization |
-| | **Risk 3** | Data inconsistencies due to DB issues |
-| | **Mitigation 3** | Validate CRUD operations and relational integrity during tests |
+
 
 ---
 **Next:** [Test Cases →](testcase.md)

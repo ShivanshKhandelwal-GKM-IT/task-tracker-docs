@@ -483,10 +483,18 @@
 <td>Login with both fields empty</td>
 <td>Error: "Email and password required".</td>
 </tr>
+<tr>
+<td><strong>TC-07</strong></td>
+<td>Login with password less than minimum length</td>
+<td>Error: "Password must be at least 6 characters".</td>
+</tr>
+<tr>
+<td><strong>TC-08</strong></td>
+<td>Login with leading/trailing spaces in email</td>
+<td>Email is trimmed automatically; login succeeds if credentials valid.</td>
+</tr>
 </tbody>
 </table>
-<p>| <strong>TC-07</strong>    | Login with password less than minimum length               | Error: "Password must be at least 6 characters". <em>(Password policy: min 6 characters)</em> |
-| <strong>TC-08</strong>    | Login with leading/trailing spaces in email                | Email is trimmed automatically; login succeeds if credentials are valid. |</p>
 
 
 
