@@ -1,4 +1,4 @@
-site_name: Task Tracker App
+site_name: Task Tracker System
 nav:
   - Home: index.md
   - Introduction: Introduction.md
